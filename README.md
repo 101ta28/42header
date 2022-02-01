@@ -23,7 +23,7 @@ For **Terminator**, right click -> Preferences -> Shortcuts -> change help with 
 
 ### **Note**
 
-お使いの **42のクラスターではないPC** で実行してください:
+お使いのPC **※42のクラスターではない** で実行してください:
 
 `$ ./set_header.sh`
 
