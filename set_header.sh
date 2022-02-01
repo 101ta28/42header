@@ -2,28 +2,15 @@
 # ./set_header.sh
 
 # Set variables
-
-if [ ! -z "$USER" ]
-then
-    echo "USER=`/usr/bin/whoami`" >> ~/.zshrc
-    echo "export USER" >> ~/.zshrc
-fi
-
-if [ ! -z "$GROUP" ]
-then
-    echo "GROUP=`/usr/bin/id -gn $user`" >> ~/.zshrc
-    echo "export GROUP" >> ~/.zshrc
-fi
-
-if [ ! -z "$MAIL" ]
-then
-    echo "MAIL="$USER@student.42.fr"" >> ~/.zshrc
-    echo "export MAIL" >> ~/.zshrc
-fi
-
 mkdir -p ~/.vim/plugin
 
 # Add stdheader to vim plugins
 cp plugin/stdheader.vim ~/.vim/plugin/
 
-source ~/.zshrc
+source ~/.bashrc
+
+echo "Input your 42UserName:"
+read username
+
+echo "let g:user42 = '$username'" >> ~/.vimrc
+echo "let g: = 'let g:mail42 = '$username@student.42tokyo.jp''" >> ~/.vimrc

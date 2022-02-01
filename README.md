@@ -1,6 +1,6 @@
-# **42 Header**
+# **42 Header(Bash)**
 
-42 (Paris)
+42 (Tokyo)
 
 ### **Description**
 
@@ -13,20 +13,6 @@
 Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
 manager. Then set the user and mail variables as explained below.
 
-#### Option 1: export USER and MAIL in your shell configuration file
-
-Add in `~/.zshrc` your:
-
-+ `USER`
-+ `MAIL`
-
-#### Option 2: set user and mail values directly in your vimrc
-
-```vim
-let g:user42 = 'yourLogin'
-let g:mail42 = 'yourLogin@student.42.fr'
-```
-
 ### **Usage**
 
 In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
@@ -37,16 +23,16 @@ For **Terminator**, right click -> Preferences -> Shortcuts -> change help with 
 
 ### **Note**
 
-Inside the **42 clusters** you can easily run:
+お使いの **42のクラスターではないPC** で実行してください:
 
 `$ ./set_header.sh`
 
 ### **Credits**
 
-[@zazard](https://github.com/zazard) - creator  
-[@alexandregv](https://github.com/alexandregv) - contributor  
-[@mjacq42](https://github.com/mjacq42) - contributor  
-[@sungmcho](https://github.com/lordtomi0325) - contributor  
+[@zazard](https://github.com/zazard) - creator
+[@alexandregv](https://github.com/alexandregv) - contributor
+[@mjacq42](https://github.com/mjacq42) - contributor
+[@sungmcho](https://github.com/lordtomi0325) - contributor
 
 ### **License**
 
