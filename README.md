@@ -4,36 +4,39 @@
 
 ### **Description**
 
-42 standard header for vim editor.
+Vim用の42ヘッダーです。
 
 ![42 header](img/42header.jpg)
 
-### **UNIX Setup**
+### **UNIXでのセットアップ**
 
-Copy `stdheader.vim` in your `~/.vim/plugin`, or use your favorite plugin
-manager. Then set the user and mail variables as explained below.
+`~/.vim/plugin`に `stdheader.vim` をコピーするか、プラグインマネージャーを利用してください。
+その後、ユーザー名とメール変数を設定してください。(シェルスクリプトを利用すれば大丈夫です。)
 
-### **Usage**
+### **使い方**
 
-In **NORMAL** mode you can use `:Stdheader` or simply press the shortcut <kbd>F1</kbd>.
+**NORMAL** モードで `:Stdheader` を入力するか、キーボードの <kbd>F1</kbd>を押してください。
 
-Under **Linux** you eventually need to disable the **help** shortcut of your **terminal** :
+**Linux** の環境の場合、**help** のショートカットキーを無効化してください。
 
-For **Terminator**, right click -> Preferences -> Shortcuts -> change help with something other than <kbd>F1</kbd>
 
 ### **Note**
 
-お使いのPC **※42のクラスターではない** で実行してください:
+お使いのUbuntuで実行してください:
 
 `$ ./set_header.sh`
 
-### **Credits**
+### **クレジット**
+
+オリジナルリポジトリ:
 
 [@zazard](https://github.com/zazard) - creator
 [@alexandregv](https://github.com/alexandregv) - contributor
 [@mjacq42](https://github.com/mjacq42) - contributor
 [@sungmcho](https://github.com/lordtomi0325) - contributor
 
-### **License**
+フォーク先(このリポジトリ):
+[@101ta28](https://github.com/101ta28)
+### **ライセンス**
 
 This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
