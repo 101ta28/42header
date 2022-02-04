@@ -12,3 +12,5 @@ read -p "Input your 42UserName> " username
 
 echo "let g:user42 = '$username'" >> ~/.vimrc
 echo "let g:mail42 = '$username@student.42tokyo.jp'" >> ~/.vimrc
+echo "nmap <F1> :echo<CR>" >> ~/.vimrc
+echo "imap <F1> <C-o>:echo<CR>" >> ~/.vimrc
