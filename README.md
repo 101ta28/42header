@@ -24,7 +24,10 @@ Vim用の42ヘッダーです。
 
 お使いのUbuntuで実行してください:
 
-`$ ./set_header.sh`
+```
+$ curl https://raw.githubusercontent.com/101ta28/42header/master/set_header.sh > set_header.sh
+$ sh ./set_header.sh
+```
 
 ### **クレジット**
 
