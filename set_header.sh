@@ -5,12 +5,9 @@
 mkdir -p ~/.vim/plugin
 
 # Add stdheader to vim plugins
-cp plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
+curl https://raw.githubusercontent.com/101ta28/42header/master/plugin/stdheader.vim > ~/.vim/plugin/stdheader.vim
 
-echo "Input your 42UserName:"
 read -p "Input your 42UserName> " username
 
 echo "let g:user42 = '$username'" >> ~/.vimrc
 echo "let g:mail42 = '$username@student.42tokyo.jp'" >> ~/.vimrc
-echo "nmap <F1> :echo<CR>" >> ~/.vimrc
-echo "imap <F1> <C-o>:echo<CR>" >> ~/.vimrc
