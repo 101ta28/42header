@@ -7,8 +7,6 @@ mkdir -p ~/.vim/plugin
 # Add stdheader to vim plugins
 cp plugin/stdheader.vim ~/.vim/plugin/stdheader.vim
 
-source ~/.bashrc
-
 echo "Input your 42UserName:"
 read -p "Input your 42UserName> " username
 
