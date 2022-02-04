@@ -26,7 +26,7 @@ Vim用の42ヘッダーです。
 
 ```
 $ curl https://raw.githubusercontent.com/101ta28/42header/master/set_header.sh > set_header.sh
-$ sh ./set_header.sh
+$ sh set_header.sh
 ```
 
 ### **クレジット**
