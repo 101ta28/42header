@@ -39,7 +39,9 @@ $ sh set_header.sh
 [@sungmcho](https://github.com/lordtomi0325) - contributor
 
 フォーク先(このリポジトリ):
+
 [@101ta28](https://github.com/101ta28)
+
 ### **ライセンス**
 
 This work is published under the terms of **[42 Unlicense](https://github.com/gcamerli/42unlicense)**.
