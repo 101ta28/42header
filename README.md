@@ -29,6 +29,13 @@ $ curl https://raw.githubusercontent.com/101ta28/42header/master/set_header.sh >
 $ sh set_header.sh
 ```
 
+Macはこちら
+
+```
+$ curl https://raw.githubusercontent.com/101ta28/42tokyoHeader/main/mac_header.sh > mac_header.sh
+$ sh mac_header.sh
+```
+
 ### **クレジット**
 
 オリジナルリポジトリ:
