@@ -1,4 +1,4 @@
-# **42 Header(Bash)**
+# **42 Header**
 
 42 (Tokyo)
 
