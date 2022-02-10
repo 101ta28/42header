@@ -22,7 +22,7 @@ Vim用の42ヘッダーです。
 
 ### **インストール方法**
 
-お使いのUbuntuで実行してください:
+お使いのUbuntuなどで実行してください:
 
 ```
 $ curl https://raw.githubusercontent.com/101ta28/42header/master/set_header.sh > set_header.sh
