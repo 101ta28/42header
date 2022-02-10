@@ -5,7 +5,7 @@
 mkdir -p ~/.vim/plugin
 
 # Add stdheader to vim plugins
-curl curl https://raw.githubusercontent.com/42Paris/42header/master/plugin/stdheader.vim > ~/.vim/plugin/stdheader.vim
+curl https://raw.githubusercontent.com/42Paris/42header/master/plugin/stdheader.vim > ~/.vim/plugin/stdheader.vim
 
 read -p "Input your 42UserName> " username
 
