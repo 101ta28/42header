@@ -22,14 +22,14 @@ Vim用の42ヘッダーです。
 
 ### **インストール方法**
 
-お使いのUbuntuなどで実行してください:
+Bashはこちら:
 
 ```
 $ curl https://raw.githubusercontent.com/101ta28/42header/master/set_header.sh > set_header.sh
 $ sh set_header.sh
 ```
 
-Macはこちら
+Zshはこちら
 
 ```
 $ curl https://raw.githubusercontent.com/101ta28/42tokyoHeader/main/mac_header.sh > mac_header.sh
